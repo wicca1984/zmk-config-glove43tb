@@ -131,19 +131,19 @@
 
         NUM {
             bindings = <
-&kp KP_NUMBER_1         &kp KP_NUMBER_2   &kp KP_NUMBER_3    &kp KP_NUMBER_4  &kp KP_NUMBER_5                         &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0
-&kp UNDERSCORE          &kp EXCLAMATION   &kp AT_SIGN        &kp HASH         &kp DOLLAR       &trans      &kp EQUAL  &kp ASTERISK     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp BACKSLASH
-&mt LEFT_SHIFT PERCENT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE   &kp RIGHT_BRACE  &trans      &trans     &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH
-&trans                  &trans            &trans             &trans           &trans           &trans      &kp PLUS   &kp MINUS                                                           &kp PIPE
+&kp NUMBER_1            &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4    &kp NUMBER_5                            &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp UNDERSCORE          &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR       &trans      &kp EQUAL  &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSLASH
+&mt LEFT_SHIFT PERCENT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans      &trans     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&trans                  &trans            &trans             &trans          &trans           &trans      &kp PLUS   &kp MINUS                                               &kp PIPE
             >;
         };
 
         ARROW {
             bindings = <
-&trans          &trans  &trans  &trans  &trans                      &kp ESCAPE     &kp PAGE_UP     &kp UP_ARROW        &kp PAGE_DOWN    &trans
-&trans          &trans  &trans  &trans  &trans  &trans      &trans  &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT_ARROW  &kp DELETE
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans  &trans         &kp HOME        &kp K_CONTEXT_MENU  &kp END          &trans
-&trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                              &trans
+&trans  &trans  &trans  &trans  &trans                      &kp ESCAPE     &kp PAGE_UP     &kp UP_ARROW        &kp PAGE_DOWN    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT_ARROW  &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans         &kp HOME        &kp K_CONTEXT_MENU  &kp END          &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                              &trans
             >;
         };
 
