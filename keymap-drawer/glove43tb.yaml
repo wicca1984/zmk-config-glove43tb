@@ -41,9 +41,9 @@ layers:
   - {t: '&to_layer_0 INTERNATIONAL_4', h: '6'}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 INTERNATIONAL_5', h: ARROW}
-  - TAB
+  - {t: TAB, h: LEFT SHIFT}
   - {t: ENTER, h: FUNCTION}
-  - RIGHT SHIFT
+  - RIGHT CONTROL
   FUNCTION:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
