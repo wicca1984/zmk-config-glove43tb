@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - Sft+Gui+S
-  - '-'
+  - {t: '-', h: '6'}
   - H
   - J
   - K
@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - ':'
-  - ;
+  - {t: ':', h: LEFT SHIFT}
+  - {t: ;, h: RIGHT SHIFT}
   - N
   - M
   - ','
@@ -38,10 +38,10 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INTERNATIONAL_4', h: '6'}
+  - {t: '&to_layer_0 INTERNATIONAL_4', h: MOUSE}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 INTERNATIONAL_5', h: ARROW}
-  - {t: TAB, h: LEFT SHIFT}
+  - {t: TAB, h: MOUSE}
   - {t: ENTER, h: FUNCTION}
   - RIGHT CONTROL
   FUNCTION:
@@ -214,7 +214,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -281,7 +281,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -302,7 +302,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
